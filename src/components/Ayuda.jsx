@@ -7,30 +7,23 @@ import { BsNewspaper } from 'react-icons/bs';
 const Ayuda = () => {
   return (
     <Wrapper>
-      <Link to={'/colabora'} className="info-card">
-        <article>
-          <FiUsers className="icon" />
-          <h5>COLABORA</h5>
-          <p>Descubre como puedes ayudarnos de diferentes formas</p>
-        </article>
-      </Link>
-      <Link to={'/campanas'} className="info-card">
-        <article>
-          <MdCampaign className="icon" />
-          <h5>CAMPAÑAS</h5>
-          <p>Conoce las campañas de concienciación que tenemos activas</p>
-        </article>
-      </Link>
-      <Link to={'/eventos'} className="info-card">
-        <article>
-          <BsNewspaper className="icon" />
-          <h5>EVENTOS</h5>
-          <p>
-            Ferias, rastrillos, recogidas solidarias y todo lo relacionado con los eventos de la
-            SPAB
-          </p>
-        </article>
-      </Link>
+      <article className="info-card">
+        <FiUsers className="icon" />
+        <h5>COLABORA</h5>
+        <p>Descubre como puedes ayudarnos de diferentes formas</p>
+      </article>
+      <article className="info-card">
+        <MdCampaign className="icon" />
+        <h5>CAMPAÑAS</h5>
+        <p>Conoce las campañas de concienciación que tenemos activas</p>
+      </article>
+      <article className="info-card">
+        <BsNewspaper className="icon" />
+        <h5>EVENTOS</h5>
+        <p>
+          Ferias, rastrillos, recogidas solidarias y todo lo relacionado con los eventos de la SPAB
+        </p>
+      </article>
     </Wrapper>
   );
 };
