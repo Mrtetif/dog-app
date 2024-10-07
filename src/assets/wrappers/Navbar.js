@@ -27,7 +27,7 @@ const Wrapper = styled.nav`
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    margin-top: 1rem;
+    padding-top: 1rem;
   }
   .nav-link {
     color: var(--primary-800);
@@ -68,6 +68,7 @@ const Wrapper = styled.nav`
       flex-direction: row;
       margin: 0 auto;
     }
+  }
 
   @media (min-width: 735px) {
     .nav-links {
