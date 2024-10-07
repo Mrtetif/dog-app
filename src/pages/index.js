@@ -1,0 +1,11 @@
+export { default as Landing } from './Landing';
+export { default as Adopta } from './Adopta';
+export { default as About } from './About';
+export { default as AnimalesAdoptados } from './AnimalesAdoptados';
+export { default as Campanas } from './Campanas';
+export { default as Colabora } from './Colabora';
+export { default as Contacto } from './Contacto';
+export { default as Error } from './Error';
+export { default as Eventos } from './Eventos';
+export { default as HomeLayout } from './HomeLayout';
+export { default as SingleCard } from './SingleCard';
